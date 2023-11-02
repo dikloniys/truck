@@ -1,0 +1,17 @@
+<svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#208;&#191;&#209;&#128;&#208;&#190;&#208;&#184;&#208;&#179;&#209;&#128;&#209;&#139;&#208;&#178;&#208;&#176;&#209;&#130;&#208;&#181;&#208;&#187;&#209;&#140;?">
+<g id="Ellipse 10" filter="url(#filter0_b_1_113)">
+<circle cx="33.5" cy="33.5" r="33.5" fill="#D9D9D9" fill-opacity="0.3"/>
+<circle cx="33.5" cy="33.5" r="33" stroke="white"/>
+</g>
+<path id="Polygon 1" d="M47.5 32.634C48.1667 33.0189 48.1667 33.9811 47.5 34.366L27.25 46.0574C26.5833 46.4423 25.75 45.9611 25.75 45.1913L25.75 21.8087C25.75 21.0389 26.5833 20.5577 27.25 20.9426L47.5 32.634Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_1_113" x="-100" y="-100" width="267" height="267" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="50"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_113"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_113" result="shape"/>
+</filter>
+</defs>
+</svg>

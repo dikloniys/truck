@@ -1,0 +1,440 @@
+@import _fonts
+$backgroundButton: #131415 
+$marginBottom: 100px
+*
+    padding: 0
+    margin: 0
+    outline: none
+    text-decoration: none
+    box-sizing: border-box
+body 
+    margin: 0
+    padding: 0
+    font-size: 18px
+    font-family: 'Gotham Pro'
+    font-weight: 400
+li
+    list-style: none
+img
+    vertical-align: middle
+a
+    text-decoration: none
+    color: #000
+.container
+    max-width: 1480px
+    width: 100%
+    margin: 0 auto 
+.button
+    border-radius: 15px
+    background-color: $backgroundButton
+    color: #FFF
+    font-size: 20px
+    font-weight: 700
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 58px
+    cursor: pointer
+    & a   
+        color: #FFF
+.point
+    width: 21px
+    height: 21px
+    background-color: $backgroundButton
+    border-radius: 50%
+.title
+    font-size: 96px
+    text-transform: uppercase
+    font-weight: 400
+.subtitle
+    font-size: 48px
+    text-transform: uppercase
+.swiper-slide-duplicate-prev
+    opacity: 0.5
+.main
+    background-color: #F1F1F1
+    padding-bottom: 40px
+.nav
+    &_menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 6px
+        background-color: #fff
+        border-radius: 20px
+        margin-bottom: 40px
+    &_block
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_item
+        margin-left: 37px
+        &:first-of-type
+            margin-left: 0
+        &:last-of-type
+            margin-right: 0
+        &-special
+            width: 186px
+            margin-right: 40px
+.header
+    margin-bottom: $marginBottom
+    &_video
+        background-image: url('../img/video.png') 
+        background-repeat: no-repeat
+        background-size: cover
+        border-radius: 20px
+        height: 1024px
+    &_shadow
+        background-color: rgba(30, 33, 38, 0.40)
+        border-radius: 20px
+        padding-top: 23px
+        height: 1024px
+    &_truck
+        position: relative
+    &_wrapper
+        display: flex
+        margin-bottom: 159px
+    &_name
+        color: rgba(255, 255, 255, 0.50)
+        writing-mode: vertical-rl
+        text-orientation: mixed
+        font-size: 128px
+        font-weight: 700
+        text-transform: uppercase
+    &_info
+        color: #FFF
+        font-size: 24px
+        text-transform: uppercase
+        margin-left: 53%
+    &_wrap
+        display: flex
+        align-items: center
+    &_title 
+        color: #FFF
+    &_subtitle
+        color: #FFF
+        font-size: 36px
+        line-height: 106.2% 
+        margin-right: 40px
+    &_img
+        margin-right: 38px
+    &_contacts
+        position: absolute
+        right: 0
+    &_phone
+        color: #FFF
+        font-size: 22px
+    &_firm
+        font-family: 'Ubuntu Pro'
+        font-weight: 300
+        color: #FFF
+        font-size: 22px
+.specifications
+    margin-bottom: $marginBottom
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        margin-bottom: 40px
+    
+    &_link
+        display: flex
+    &_swiper
+        overflow: hidden
+        margin-left: calc((100% - 1480px) / 2)
+        &_button
+            border-radius: 20px
+            background-color: $backgroundButton
+            width: 97px
+            height: 58px
+            margin-right: 40px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &-prev
+                transform: rotate(180deg)
+            & svg
+                fill: #fff
+            &:last-of-type
+                margin-right: 0
+        &_buttons
+            display: flex
+            justify-content: flex-end
+            margin-bottom: 40px
+            margin-right: calc(100% - 1480px)
+    &_slide
+        width: auto
+    &_blocks
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr 1fr
+        grid-column-gap: 40px
+        margin-bottom: 40px
+    &_block
+        padding-top: 55px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-direction: column
+        border-radius: 20px
+        border: 1px solid #000
+        &:nth-of-type(1)
+            padding: 55px 21px 0
+        &:nth-of-type(2)
+            padding: 55px 61px 0
+        &:nth-of-type(3)
+            padding: 55px 91px 0
+        &:nth-of-type(4)
+            padding: 55px 53px 0
+            
+    &_text
+        color: #000
+        font-size: 24px
+        text-transform: uppercase
+        margin-bottom: 24px
+    &_point
+        margin-bottom: 10px
+    &_button
+        width: 391px
+        &_wrap
+            display: flex
+            justify-content: flex-end
+.title
+    &_subtitle
+    text-transform: lowercase
+.link
+    &_item
+        display: flex
+        justify-content: center
+        width: 212px
+        height: 150px
+        padding-top: 40px
+        margin-right: 40px
+        border-radius: 15px
+        background: $backgroundButton
+        position: relative
+        &:last-of-type
+            margin-right: 0px
+    &_text
+        color: #FFF
+        font-size: 16px
+        font-weight: 700
+        text-transform: uppercase
+    &_arrow
+        position: absolute
+        right: 20px
+        bottom: 20px
+.choice
+    margin-bottom: $marginBottom
+    &_wrapper
+        display: flex
+    &_info
+        margin-left: calc((100% - 1480px) / 2)
+        margin-right: 102px
+    &_title
+        margin-bottom: 20px
+    &_subtitle
+        margin-bottom: 40px
+    &_advantages
+        padding: 50px
+        border-radius: 30px
+        border: 1px solid #000
+        display: flex
+        flex-direction: column
+    &_swiper
+        overflow: hidden
+        &_button
+            border-radius: 20px
+            background-color: $backgroundButton
+            width: 97px
+            height: 58px
+            margin-right: 40px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &-prev
+                transform: rotate(180deg)
+            & svg
+                fill: #fff
+            &:last-of-type
+                margin-right: 0
+        &_buttons
+            display: flex
+            justify-content: flex-end
+            margin-left: calc((100% - 1480px) / 2)
+    &_slide 
+        width: auto
+        position: relative
+        &_text
+            border-radius: 0px 20px
+            background: #131415
+            width: 295px
+            height: 58px
+            display: flex
+            justify-content: center
+            align-items: center
+            color: #fff
+            position: absolute
+            bottom: 0
+.advantages
+    &_text
+        margin-bottom: 80px
+        font-size: 20px
+    &_list
+        display: flex
+        justify-content: flex-start
+        margin-bottom: 60px
+        & ul
+            margin-right: 37px
+        & li
+            text-transform: uppercase
+            font-size: 20px
+            margin-bottom: 40px
+            &:last-of-type
+                margin-bottom: 0px   
+    &_point
+        margin-bottom: 45px
+        &:last-of-type
+            margin-bottom: 0
+    &_button
+        width: 312px
+        &_wrap
+            display: flex
+            align-items: center
+            justify-content: center
+.calculator
+    margin-bottom: $marginBottom
+    &_title
+        margin-bottom: 40px
+    &_bacgraynd
+        background: url('../img/Rectangle 39.png')
+        height: 244px
+    &_shadow
+        border-radius: 30px
+        background: rgba(0, 0, 0, 0.30)
+        height: 244px
+        padding: 0 40px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_text
+        color: #fff
+    &_button
+        width: 304px
+.test
+    margin-bottom: $marginBottom
+    &_wrapper
+        display: flex
+    &_application
+        margin-right: 40px
+    &_title
+        margin-bottom: 20px
+    &_subtitle
+        margin-bottom: 37px
+    &_form
+        border-radius: 30px
+        border: 1px solid #000
+    &_video
+        background: url('../img/Rectangle 40.png') no-repeat
+        width: 590px
+        height: 913px
+        border-radius: 30px
+        display: flex
+        align-items: center
+        justify-content: center
+.form
+    &_form
+        padding: 53px 60px 46px 60px
+        & input
+            margin-bottom: 60px
+            height: 60px
+            width: 100%
+            background-color: $backgroundButton
+            padding-left: 18px
+    &_text
+        font-size: 48px
+        margin-bottom: 20px
+    &_button
+        width: 291px
+        &_wrap
+            display: flex
+            align-items: center
+            justify-content: center
+.questions
+    margin-bottom: $marginBottom
+    &_wrapper
+        display: flex
+    &_title
+        margin-right: 25px
+    &_questions
+        display: flex
+        justify-content: space-between
+        align-items: center 
+        border-radius: 20px
+        border: 1px solid #000
+        width: 57%
+        padding: 23px 50px 24px
+        & li
+            margin-bottom: 25px
+            font-size: 30px
+    &_point
+        display: flex
+        justify-content: center
+        align-items: center 
+        color: #fff
+        margin-bottom: 34px
+.news
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_button
+        width: 312px
+    &_swiper
+        overflow: hidden
+        margin-left: calc((100% - 1480px) / 2)
+    &_slide 
+        width: auto
+.footer
+    background-color: $backgroundButton
+    padding: 40px 222px 70px 220px
+    &_logo
+        margin-bottom: 40px
+    &_wrapper
+        display: flex
+    &_menu
+        display: flex
+        justify-content: space-between
+        margin-bottom: 71px
+    & li
+        margin-bottom: 20px
+        & a
+            color: #fff
+    & ul
+        &:nth-of-type(1)
+            margin-right: 96px
+        &:nth-of-type(2)
+            margin-right: 88px
+    &_copyright
+        display: flex
+        align-items: center
+        color: #fff
+        margin-bottom: 20px
+        font-size: 16px
+        &:last-of-type
+            margin-bottom: 0px  
+        & a
+            color: #fff
+    &_bottom
+        color: $backgroundButton
+        border-radius: 15px
+        background: #F1F1F1
+        width: 312px
+        height: 58px
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 40px
+        font-size: 20px
+    
+
+            
+            

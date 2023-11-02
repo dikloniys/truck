@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Gotham Pro Regular";
+  src: url("GothamPro.eot");
+  src: url("GothamPro.eot?#iefix") format("embedded-opentype");
+  src: url("GothamPro.woff") format("woff");
+  src: url("GothamPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Pro Bold";
+  src: url("GothamPro-Bold.eot");
+  src: url("GothamPro-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("GothamPro-Bold.woff") format("woff");
+  src: url("GothamPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}/*# sourceMappingURL=fonts.css.map */
