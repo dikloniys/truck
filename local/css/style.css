@@ -223,6 +223,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .specifications_swiper_button-prev {
   transform: rotate(180deg);
@@ -286,9 +287,10 @@ a {
   justify-content: flex-end;
 }
 
-.title {
+.title_subtitle {
   text-transform: lowercase;
 }
+
 .link_item {
   display: flex;
   justify-content: center;
@@ -350,6 +352,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .choice_swiper_button-prev {
   transform: rotate(180deg);
