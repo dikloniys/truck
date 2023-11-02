@@ -1,5 +1,5 @@
 
-var swiper = new Swiper(".specificationsSwiper", {
+let swiper = new Swiper(".specificationsSwiper", {
     slidesPerView: 'auto',
     spaceBetween: 40,
     loop: true,
@@ -9,7 +9,7 @@ var swiper = new Swiper(".specificationsSwiper", {
     }
 });
 
-var slider = new Swiper(".choiceSwiper", {
+let slider = new Swiper(".choiceSwiper", {
     slidesPerView: 'auto',
     spaceBetween: 40,
     loop: true,
@@ -18,7 +18,7 @@ var slider = new Swiper(".choiceSwiper", {
         nextEl:'.js-choice-next-slide' 
     }
 });
-var newsSlider = new Swiper(".newsSwiper", {
+let newsSlider = new Swiper(".newsSwiper", {
     slidesPerView: 'auto',
     spaceBetween: 40,
     loop: true,
